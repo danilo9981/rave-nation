@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+.container {
+  margin: 0 auto; }
+  .container__navigation-content {
+    max-width: 114rem; }
+  .container__heading-content {
+    max-width: 95rem;
+    text-align: center; }
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff; }
+
+.heading {
+  font-weight: 300;
+  text-align: center;
+  margin: 15rem 0 5rem 0; }
+  .heading__main {
+    font-size: 7rem;
+    text-align: center;
+    padding: 1rem;
+    letter-spacing: 1rem;
+    text-shadow: 0.1rem 0.2rem rgba(0, 0, 0, 0.3); }
+  .heading__sub {
+    font-size: 6.5rem;
+    text-align: center;
+    padding: 1rem;
+    letter-spacing: 1rem;
+    text-shadow: 0.1rem 0.2rem rgba(0, 0, 0, 0.3); }
+
+.btn {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 1.5rem 3.5rem;
+  text-decoration: none;
+  color: #ffffff;
+  border: .1rem transparent;
+  border-radius: .3rem;
+  transition: all .2s ease;
+  box-shadow: 0.1rem 0.2rem 0.4rem rgba(0, 0, 0, 0.3); }
+  .btn-blue {
+    background: #006df0; }
+  .btn:hover {
+    background: #045ac4; }
+
+.header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/main-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .navbar__logo {
+    font-size: 1.9rem;
+    font-weight: 300;
+    padding: 1rem; }
+  .navbar__logo-link {
+    text-decoration: none;
+    color: #ffffff; }
+  .navbar__logo-link:active, .navbar__logo-link:visited {
+    text-decoration: none;
+    color: #ffffff; }
+  .navbar__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; }
+  .navbar__menu-item {
+    padding: 1rem;
+    margin: 1rem;
+    list-style: none;
+    font-weight: 300;
+    cursor: pointer; }

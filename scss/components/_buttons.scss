@@ -1,0 +1,20 @@
+.btn {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 1.5rem 3.5rem;
+    text-decoration: none;
+    color: $color-white;
+    border: .1rem transparent;
+    border-radius: .3rem;
+    transition: all .2s ease;
+    box-shadow: $btn-shadow;
+
+    &-blue {
+        background: $color-primary;
+    }
+
+    &:hover {
+        background: $color-primary-dark;
+    }
+}

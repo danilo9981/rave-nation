@@ -1,0 +1,11 @@
+{
+  "name": "ravenation",
+  "version": "1.0.0",
+  "description": "Site for raves in Belgrade and Novi sad",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass": "node-sass --watch scss/main.scss -o css/main.css"
+  },
+  "author": "Danijel Ristic, Aleksa Radovanovic",
+  "license": "ISC"
+}
