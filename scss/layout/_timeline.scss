@@ -1,0 +1,44 @@
+.timeline {
+  height: 100%;
+  width: 100%;
+  margin: 7.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__description {
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+
+  &:not(:last-child) {
+    content: '';
+    border-right: 0.1rem solid $color-grey;
+  }
+
+  &:first-child {
+    border: transparent;
+    border-radius: 0.2rem;
+  }
+
+  &__today {
+    background-image: linear-gradient(
+      to right,
+      $color-primary-dark,
+      $color-primary-light
+    );
+    color: $color-white;
+    padding: 3.5rem 0.2rem;
+  }
+
+  &__description-date {
+    display: block;
+    padding: 1.5rem;
+    color: $color-grey;
+  }
+
+  &__description-events {
+    display: block;
+    padding: 1rem;
+  }
+}

@@ -2,8 +2,10 @@
 $color-white: #ffffff;
 $color-black: #000000;
 $color-primary: #006df0;
+$color-primary-light: #0096ef;
 $color-primary-dark: #045ac4;
+$color-grey: #7f8486;
+$color-grey-dark: #333333;
 
 // Shadows
 $main-shadow: 0.1rem 0.2rem rgba($color-black, $alpha: 0.3);
-$btn-shadow: 0.1rem 0.1rem 5rem rgba($color-primary, $alpha: 0.6);

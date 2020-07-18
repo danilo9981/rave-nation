@@ -1,0 +1,66 @@
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr auto 1fr;
+  grid-gap: 4rem;
+
+  &__image {
+    max-width: 30rem;
+    max-height: 100%;
+    object-fit: fill;
+  }
+
+  &__description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  &__title {
+    font-size: 3rem;
+    color: $color-grey-dark;
+  }
+
+  &__icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    fill: $color-grey-dark;
+  }
+
+  &__text {
+    color: $color-black;
+  }
+
+  &__misc {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+
+    p {
+      font-size: 1.8rem;
+      color: $color-primary;
+      margin-right: auto;
+    }
+
+    a {
+      color: $color-black;
+      text-decoration: none;
+      border-bottom: 0.15rem solid $color-primary;
+    }
+  }
+
+  &__location-and-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      color: $color-black;
+      padding: 0.5rem;
+      margin-right: 3rem;
+    }
+  }
+}
