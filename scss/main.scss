@@ -1,22 +1,23 @@
 // Abstracts
-@import "abstracts/mixins";
-@import "abstracts/variables";
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
 
 // Base
-@import "base/reset";
-@import "base/typography";
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/utilities';
 
 // Components
-@import "components/buttons.scss";
+@import 'components/buttons';
+@import 'components/icons';
 
 // Layout
-@import "layout/footer";
-@import "layout/header";
-@import "layout/navigation";
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/navigation';
 
 // Pages
 
 // Themes
 
 // Vendors
-

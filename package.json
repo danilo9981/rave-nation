@@ -7,5 +7,14 @@
     "compile:sass": "node-sass --watch scss/main.scss -o css/main.css"
   },
   "author": "Danijel Ristic, Aleksa Radovanovic",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilo9981/rave-nation.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/danilo9981/rave-nation/issues"
+  },
+  "homepage": "https://github.com/danilo9981/rave-nation#readme"
 }

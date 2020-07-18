@@ -14,53 +14,73 @@ html {
   .container__navigation-content {
     max-width: 114rem; }
   .container__heading-content {
-    max-width: 95rem;
-    text-align: center; }
+    max-width: 95rem; }
+  .container__timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000; }
+
+@font-face {
+  font-family: 'Futura';
+  src: url("../../fonts/FuturaLT.ttf");
+  src: url("../../fonts/FuturaLT.woff"); }
 
 body {
   font-size: 1.6rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Futura', sans-serif;
   color: #ffffff; }
 
 .heading {
   font-weight: 300;
-  text-align: center;
-  margin: 15rem 0 5rem 0; }
+  text-align: left;
+  margin: 10rem 0 5rem 0; }
   .heading__main {
-    font-size: 7rem;
-    text-align: center;
+    display: block;
+    font-size: 6rem;
     padding: 1rem;
-    letter-spacing: 1rem;
-    text-shadow: 0.1rem 0.2rem rgba(0, 0, 0, 0.3); }
+    letter-spacing: 0.3rem; }
   .heading__sub {
-    font-size: 6.5rem;
-    text-align: center;
+    display: block;
+    font-size: 6rem;
     padding: 1rem;
-    letter-spacing: 1rem;
-    text-shadow: 0.1rem 0.2rem rgba(0, 0, 0, 0.3); }
+    letter-spacing: 0.3rem; }
 
 .btn {
   display: inline-block;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 300;
-  padding: 1.5rem 3.5rem;
+  margin: 2.75rem 0 0 1.1rem;
+  padding: 1rem 5.5rem;
   text-decoration: none;
   color: #ffffff;
-  border: .1rem transparent;
-  border-radius: .3rem;
-  transition: all .2s ease;
-  box-shadow: 0.1rem 0.2rem 0.4rem rgba(0, 0, 0, 0.3); }
+  border-radius: 0.3rem;
+  box-shadow: 0.1rem 0.1rem 5rem rgba(0, 109, 240, 0.6); }
   .btn-blue {
-    background: #006df0; }
-  .btn:hover {
-    background: #045ac4; }
+    background: linear-gradient(to right, #006df0, #045ac4); }
+
+.icon {
+  height: 5rem;
+  max-width: 25rem;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .icon__play {
+    fill: #006df0;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    cursor: pointer; }
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/main-img.jpg);
-  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../img/main-img.jpg);
+  background-position: center top;
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  overflow: hidden; }
 
 .navbar {
   display: flex;
@@ -87,3 +107,6 @@ body {
     list-style: none;
     font-weight: 300;
     cursor: pointer; }
+  .navbar__menu-item-link {
+    color: #ffffff;
+    text-decoration: none; }

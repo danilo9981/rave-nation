@@ -1,38 +1,42 @@
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
+  &__logo {
+    font-size: 1.9rem;
+    font-weight: 300;
+    padding: 1rem;
+  }
+
+  &__logo-link {
+    text-decoration: none;
+    color: $color-white;
+  }
+
+  &__logo-link:active,
+  &__logo-link:visited {
+    text-decoration: none;
+    color: $color-white;
+  }
+
+  &__menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem;
+  }
 
-    &__logo {
-        font-size: 1.9rem;
-        font-weight: 300;
-        padding: 1rem;
-    }
+  &__menu-item {
+    padding: 1rem;
+    margin: 1rem;
+    list-style: none;
+    font-weight: 300;
+    cursor: pointer;
+  }
 
-    &__logo-link {
-        text-decoration: none;
-        color: $color-white;
-    }
-
-    &__logo-link:active,
-    &__logo-link:visited {
-        text-decoration: none;
-        color: $color-white;
-    }
-
-    &__menu {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem;
-    }
-
-    &__menu-item {
-        padding: 1rem;
-        margin: 1rem;
-        list-style: none;
-        font-weight: 300;
-        cursor: pointer;
-    }
+  &__menu-item-link {
+    color: $color-white;
+    text-decoration: none;
+  }
 }

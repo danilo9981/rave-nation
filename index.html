@@ -1,39 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="css/main.css/main.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header -->
     <header class="header">
-        <!-- Navigation Bar -->
-        <div class="container container__navigation-content">
-            <nav class="navbar">
-                <h3 class="navbar__logo"><a href="" class="navbar__logo-link"><strong>rave</strong>nation</a></h3>
-                <ul class="navbar__menu">
-                    <li class="navbar__menu-item">Home</li>
-                    <li class="navbar__menu-item">Events</li>
-                    <li class="navbar__menu-item">Music</li>
-                    <li class="navbar__menu-item">Gallery</li>
-                    <li class="navbar__menu-item">Contact</li>
-                </ul>
-            </nav>
-        </div>
+      <!-- Navigation Bar -->
+      <div class="container container__navigation-content">
+        <nav class="navbar">
+          <h3 class="navbar__logo">
+            <a href="" class="navbar__logo-link"><strong>rave</strong>nation</a>
+          </h3>
+          <ul class="navbar__menu">
+            <li class="navbar__menu-item">
+              <a href="#" class="navbar__menu-item-link">Home</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#" class="navbar__menu-item-link">Events</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#" class="navbar__menu-item-link">Music</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#" class="navbar__menu-item-link">Gallery</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#" class="navbar__menu-item-link">Explore</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#" class="navbar__menu-item-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-        <div class="container container__heading-content">
-            <!-- Main Heading -->
-            <h1 class="heading">
-                <span class="heading__main">Find techno events in</span>
-                <span class="heading__sub"> Belgrade and Novi Sad</span>
-            </h1>
-            <a href="#" class="btn btn-blue">Find Rave</a>
+      <div class="container container__heading-content">
+        <!-- Main Heading -->
+        <h1 class="heading">
+          <span class="heading__main">Find techno events</span>
+          <span class="heading__sub"> in Belgrade</span>
+        </h1>
+        <div class="icon">
+          <svg class="icon__play">
+            <use xlink:href="icons/sprite.svg#icon-play2"></use>
+          </svg>
+          <div>
+            <p class="icon__desctiprion">Loco Dice, Luka Hangar</p>
+            <p class="icon__timestamp">- 2:30s</p>
+          </div>
         </div>
+        <a href="#" class="btn btn-blue">Find Rave</a>
+      </div>
     </header>
 
+    <!-- Timeline -->
+    <div class="container container__timeline">
+      <div class="timeline">
+        <p class="timeline__description">
+          Today
+        </p>
+      </div>
+      <div class="timeline">
+        <p class="timeline__description">
+          <span class="timeline__description-date">
+            15.11.
+          </span>
+          <span class="timeline__description-events">
+            3 events
+          </span>
+        </p>
+      </div>
+      <div class="timeline">
+        <p class="timeline__description">
+          <span class="timeline__description-date">
+            16.11.
+          </span>
+          <span class="timeline__description-events">
+            2 events
+          </span>
+        </p>
+      </div>
+      <div class="timeline">
+        <p class="timeline__description">
+          <span class="timeline__description-date">
+            17.11.
+          </span>
+          <span class="timeline__description-events">
+            0 events
+          </span>
+        </p>
+      </div>
+      <div class="timeline">
+        <p class="timeline__description">
+          <span class="timeline__description-date">
+            18.11.
+          </span>
+          <span class="timeline__description-events">
+            1 events
+          </span>
+        </p>
+      </div>
+      <div class="timeline">
+        <p class="timeline__description">
+          <span class="timeline__description-date">
+            19.11.
+          </span>
+          <span class="timeline__description-events">
+            0 events
+          </span>
+        </p>
+      </div>
+      <div class="timeline">
+        <p class="timeline__description">
+          <span class="timeline__description-date">
+            20.11.
+          </span>
+          <span class="timeline__description-events">
+            3 events
+          </span>
+        </p>
+      </div>
+    </div>
+
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

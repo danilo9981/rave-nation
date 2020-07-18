@@ -1,0 +1,16 @@
+.icon {
+  height: 5rem;
+  max-width: 25rem;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  &__play {
+    fill: $color-primary;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+}

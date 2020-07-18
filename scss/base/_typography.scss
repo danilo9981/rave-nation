@@ -1,29 +1,32 @@
+@font-face {
+  font-family: 'Futura';
+  src: url('../../fonts/FuturaLT.ttf');
+  src: url('../../fonts/FuturaLT.woff');
+}
+
 body {
-    font-size: 1.6rem;
-    font-family: 'Roboto', sans-serif;
-    color: $color-white;
+  font-size: 1.6rem;
+  font-family: 'Futura', sans-serif;
+  color: $color-white;
 }
 
 .heading {
-    
-    font-weight: 300;
-    text-align: center;
+  font-weight: 300;
+  text-align: left;
 
-    margin: 15rem 0 5rem 0;
+  margin: 10rem 0 5rem 0;
 
-    &__main {
-        font-size: 7rem;
-        text-align: center;
-        padding: 1rem;
-        letter-spacing: 1rem;
-        text-shadow: $main-shadow;
-    }
-    
-    &__sub {
-        font-size: 6.5rem;
-        text-align: center;
-        padding: 1rem;
-        letter-spacing: 1rem;
-        text-shadow: .1rem .2rem rgba($color: #000000, $alpha: .3);
-    }
+  &__main {
+    display: block;
+    font-size: 6rem;
+    padding: 1rem;
+    letter-spacing: 0.3rem;
+  }
+
+  &__sub {
+    display: block;
+    font-size: 6rem;
+    padding: 1rem;
+    letter-spacing: 0.3rem;
+  }
 }
