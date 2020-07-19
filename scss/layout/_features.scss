@@ -1,12 +1,13 @@
 .features {
   display: grid;
+  padding-bottom: 15rem;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr auto 1fr;
-  grid-gap: 4rem;
+  grid-gap: 7rem;
 
-  &__image {
-    max-width: 30rem;
-    max-height: 100%;
+  &__image > img {
+    width: 100%;
+    min-height: 100%;
     object-fit: fill;
   }
 
@@ -19,7 +20,8 @@
   }
 
   &__title {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
     color: $color-grey-dark;
   }
 
@@ -43,12 +45,6 @@
       font-size: 1.8rem;
       color: $color-primary;
       margin-right: auto;
-    }
-
-    a {
-      color: $color-black;
-      text-decoration: none;
-      border-bottom: 0.15rem solid $color-primary;
     }
   }
 

@@ -1,0 +1,110 @@
+.search {
+  overflow: hidden;
+  padding: 0 15rem;
+  position: relative;
+
+  &__image {
+    max-width: 100%;
+    max-height: 100%;
+
+    object-fit: fill;
+    filter: brightness(25%);
+  }
+
+  &__content {
+    padding: 2.5rem;
+    margin: 2.5rem;
+    position: absolute;
+    top: 5rem;
+  }
+
+  &__photos-and-videos {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-grey-light;
+    margin: 1rem 1rem 0 0;
+    transition: all 0.2s ease;
+  }
+
+  &__link:hover {
+    color: $color-white;
+  }
+
+  &__link:link,
+  &__link:active {
+    text-decoration: none;
+    color: $color-grey-light;
+    margin: 1rem 1rem 0 0;
+  }
+
+  &__link-selected {
+    color: $color-white;
+    border-bottom: 0.2rem solid $color-primary;
+  }
+  &__link-selected:link,
+  &__link-selected:active {
+    color: $color-white;
+    border-bottom: 0.3rem solid $color-primary;
+  }
+
+  &__description {
+    margin-top: 4.5rem;
+  }
+
+  &__text {
+    padding: 1rem 1rem 1rem 0;
+  }
+
+  &__span {
+    padding: 1rem 1rem 1rem 0;
+    color: $color-grey-light;
+  }
+
+  &__bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 1rem;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 2rem 4rem;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    caret-color: $color-white;
+    color: $color-white;
+    background-color: rgba($color-primary, 0.6);
+    font-family: inherit;
+    font-size: 1.6rem;
+  }
+
+  &__input::placeholder {
+    font-size: inherit;
+    font-family: inherit;
+    color: $color-white;
+    padding: 0.5rem;
+  }
+
+  &__icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    fill: $color-white;
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    cursor: pointer;
+  }
+
+  &__label {
+    position: absolute;
+    top: 2rem;
+    left: 5rem;
+  }
+}

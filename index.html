@@ -47,7 +47,7 @@
           <span class="heading__main">Find techno events</span>
           <span class="heading__sub"> in Belgrade</span>
         </h1>
-        <div class="icon">
+        <div class="icon mb-2">
           <svg class="icon__play">
             <use xlink:href="icons/sprite.svg#icon-play2"></use>
           </svg>
@@ -133,11 +133,7 @@
     <main class="features container container__features">
       <!-- Small Featured Event -->
       <div class="features__image">
-        <img
-          src="./img/dj-1.jpg"
-          alt="Ilija Djokovic"
-          class="small-event-picture"
-        />
+        <img src="./img/dj-1.jpg" alt="Ilija Djokovic" />
       </div>
       <div class="features__description">
         <h3 class="features__title">Ilija Djokovic</h3>
@@ -159,14 +155,20 @@
         </p>
         7
         <div class="features__misc">
-          <p>0.9k Tickets Sold</p>
+          <p>0.9K Tickets Sold</p>
           <a href="#" class="smbtn">SEE MORE</a>
         </div>
       </div>
       <!-- Big Featured Event -->
       <div class="features__description">
-        <h3 class="features__title" id="big-title">Marco Carola</h3>
-        <div class="features__location-and-time">
+        <div id="big-title">
+          <h2>Marco Carola</h2>
+        </div>
+        <div id="warm-up">
+          <h4 class="mg-right">Peter Portman</h4>
+          <h4>Ann Clue</h4>
+        </div>
+        <div class="features__location-and-time py-2">
           <svg class="features__icon">
             <use xlink:href="icons/sprite.svg#icon-location"></use>
           </svg>
@@ -175,14 +177,20 @@
             <use xlink:href="icons/sprite.svg#icon-time"></use>
           </svg>
           <p>00:00 - 05:00</p>
+          <a href="#" id="share">Show map</a>
         </div>
-        <p class="features__text">
+
+        <p class="features__text py-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
           voluptate unde excepturi vitae atque aliquid rerum quas eos? Illum
           dolorum aliquam rerum voluptates quibusdam officia deserunt similique
           nisi dignissimos enim?
         </p>
-        <div class="features__misc">
+        <p class="features__text">
+          <strong>Official afterparty at KPTM.</strong>
+        </p>
+        <p id="share">3.7K Tickets sold</p>
+        <div class="features__misc mt-big">
           <a href="#" id="share">Share this event</a>
           <a href="#" class="btn btn-blue" id="color-white">get ticket</a>
         </div>
@@ -192,11 +200,11 @@
       </div>
 
       <!-- Club Featured Event -->
-      <div class="features__image small-event-picture">
+      <div class="features__image">
         <img src="./img/club-tunnel-novi-sad-fb.jpg" alt="Club Tunnel" />
       </div>
       <div class="features__description">
-        <h3 class="features__title">Club Tunnel</h3>
+        <h3 class="features__title">Sundaybeat</h3>
         <div class="features__location-and-time">
           <svg class="features__icon">
             <use xlink:href="icons/sprite.svg#icon-location"></use>
@@ -213,11 +221,55 @@
           dolorum aliquam rerum.
         </p>
         <div class="features__misc">
-          <p>0.6k Tickets Sold</p>
+          <p>0.6K Tickets Sold</p>
           <a href="#" class="smbtn">SEE MORE</a>
         </div>
       </div>
     </main>
+
+    <!-- Search Section -->
+    <div class="search">
+      <div class="container container__search"></div>
+        <img
+          src="./img/searh-bg.jpg"
+          alt="Search Background"
+          class="search__image"
+        />
+        <div class="search__content">
+          <div class="search__photos-and-videos">
+            <a href="#" class="search__link search__link-selected">Photos</a>
+            <a href="#" class="search__link">Videos</a>
+          </div>
+          <div class="search__description">
+            <p class="search__text">
+              We are making photographs to understand what our raves mean to us.
+            </p>
+            <span class="search__span">23568 Photos</span>
+            <span class="search__span">386 Raves</span>
+          </div>
+          <div class="search__bar">
+            <svg class="search__icon">
+              <use xlink:href="icons/sprite.svg#icon-search"></use>
+            </svg>
+           <input id=""text" type="text" name="text" class="search__input" placeholder="search by name and date">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gallery Section -->
+
+    <!-- Footer -->
+    <footer class="container footer">
+      <p class="footer__origin">&copy;2020 Designproject</p>
+      <h3 class="footer__logo">
+        <a href="" class="footer__logo-link"><strong>rave</strong>nation</a>
+      </h3>
+      <div>
+        <a href="#" class="footer__link">Support</a>
+        <a href="#" class="footer__link">Terms & Conditions</a>
+      </div>
+    </footer>
 
     <script src="app.js"></script>
   </body>

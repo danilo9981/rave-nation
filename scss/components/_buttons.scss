@@ -16,3 +16,10 @@
     );
   }
 }
+
+// See more button
+.smbtn {
+  color: $color-black;
+  text-decoration: none;
+  border-bottom: 0.15rem solid $color-primary;
+}

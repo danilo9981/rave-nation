@@ -1,0 +1,37 @@
+.footer {
+  background-color: $color-grey-dark-2;
+  color: $color-white;
+  padding: 5rem;
+  margin: 5rem 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    font-size: 1.9rem;
+    font-weight: 300;
+  }
+
+  &__logo-link {
+    color: $color-white;
+    text-decoration: none;
+  }
+
+  &__logo-link:active,
+  &__logo-link:focus {
+    color: $color-white;
+    text-decoration: none;
+  }
+
+  &__link {
+    padding: 1rem;
+    color: $color-white;
+    text-decoration: none;
+  }
+
+  &__link:active,
+  &__link:focus {
+    color: $color-white;
+    text-decoration: none;
+  }
+}
