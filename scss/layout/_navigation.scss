@@ -39,7 +39,11 @@
   }
 
   &__menu-item-link {
-    color: $color-white;
+    color: $color-grey-light-2;
     text-decoration: none;
+  }
+
+  &__menu-item-link-selected {
+    color: $color-white;
   }
 }

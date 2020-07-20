@@ -27,6 +27,9 @@ html {
   .container__search {
     max-width: 105rem; }
 
+.container-blue {
+  background-image: linear-gradient(to right, #006df0, #045ac4); }
+
 @font-face {
   font-family: 'Futura';
   src: url("../../fonts/FuturaLT.ttf");
@@ -225,8 +228,10 @@ body {
     font-weight: 300;
     cursor: pointer; }
   .navbar__menu-item-link {
-    color: #ffffff;
+    color: #b2b2e2;
     text-decoration: none; }
+  .navbar__menu-item-link-selected {
+    color: #ffffff; }
 
 .search {
   overflow: hidden;
